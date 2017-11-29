@@ -24,7 +24,9 @@ private:
 	
 	void handlePlayerInput(sf::Keyboard::Key key, bool is_pressed);
 	
-	sf::CircleShape m_circle;
+	sf::CircleShape m_ball;
+	sf::CircleShape m_player;
+	
 	sf::RenderWindow m_mainWindow;
 };
 
